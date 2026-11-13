@@ -1,0 +1,345 @@
+{
+  "tool": "property-watch",
+  "version": "0.1.0",
+  "tile": "MGRS-15SXS",
+  "size_m": 2000.0,
+  "size_px": 200,
+  "pixel_m": 10.0,
+  "lat": 32.5289,
+  "lon": -91.6361,
+  "months": [
+    {
+      "month": "2025-11",
+      "status": "ok",
+      "scene": "S2B_15SXS_20251103_0_L2A",
+      "date": "2025-11-03",
+      "scene_cloud": 0.000337,
+      "clip_cloudlike": 0.0226,
+      "tried": 1,
+      "note": "",
+      "vs_prev": null,
+      "vs_first": null
+    },
+    {
+      "month": "2025-12",
+      "status": "ok",
+      "scene": "S2A_15SXS_20251230_0_L2A",
+      "date": "2025-12-30",
+      "scene_cloud": 0.340294,
+      "clip_cloudlike": 0.037,
+      "tried": 1,
+      "note": "",
+      "vs_prev": {
+        "against": "2025-11",
+        "changed_frac": 0.4316,
+        "valid_frac": 0.9521,
+        "mean_delta": 32.44,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2025-12"
+      },
+      "vs_first": {
+        "against": "2025-11",
+        "changed_frac": 0.4316,
+        "valid_frac": 0.9521,
+        "mean_delta": 32.44,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2025-12"
+      }
+    },
+    {
+      "month": "2026-01",
+      "status": "ok",
+      "scene": "S2B_15SXS_20260119_0_L2A",
+      "date": "2026-01-19",
+      "scene_cloud": 14.994715,
+      "clip_cloudlike": 0.0749,
+      "tried": 1,
+      "note": "",
+      "vs_prev": {
+        "against": "2025-12",
+        "changed_frac": 0.3871,
+        "valid_frac": 0.9163,
+        "mean_delta": 29.24,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-12..2026-01"
+      },
+      "vs_first": {
+        "against": "2025-11",
+        "changed_frac": 0.454,
+        "valid_frac": 0.9182,
+        "mean_delta": 35.97,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2026-01"
+      }
+    },
+    {
+      "month": "2026-02",
+      "status": "ok",
+      "scene": "S2B_15SXS_20260228_0_L2A",
+      "date": "2026-02-28",
+      "scene_cloud": 0.003782,
+      "clip_cloudlike": 0.1111,
+      "tried": 1,
+      "note": "",
+      "vs_prev": {
+        "against": "2026-01",
+        "changed_frac": 0.2702,
+        "valid_frac": 0.87,
+        "mean_delta": 24.46,
+        "usable": true,
+        "flagged": false,
+        "heat": "2026-01..2026-02"
+      },
+      "vs_first": {
+        "against": "2025-11",
+        "changed_frac": 0.5705,
+        "valid_frac": 0.8841,
+        "mean_delta": 41.0,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2026-02"
+      }
+    },
+    {
+      "month": "2026-03",
+      "status": "ok",
+      "scene": "S2B_15SXS_20260313_0_L2A",
+      "date": "2026-03-13",
+      "scene_cloud": 0.003458,
+      "clip_cloudlike": 0.0307,
+      "tried": 1,
+      "note": "",
+      "vs_prev": {
+        "against": "2026-02",
+        "changed_frac": 0.4506,
+        "valid_frac": 0.8855,
+        "mean_delta": 32.61,
+        "usable": true,
+        "flagged": false,
+        "heat": "2026-02..2026-03"
+      },
+      "vs_first": {
+        "against": "2025-11",
+        "changed_frac": 0.4897,
+        "valid_frac": 0.9584,
+        "mean_delta": 34.39,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2026-03"
+      }
+    },
+    {
+      "month": "2026-04",
+      "status": "ok",
+      "scene": "S2B_15SXS_20260409_0_L2A",
+      "date": "2026-04-09",
+      "scene_cloud": 0.001828,
+      "clip_cloudlike": 0.1245,
+      "tried": 1,
+      "note": "",
+      "vs_prev": {
+        "against": "2026-03",
+        "changed_frac": 0.6585,
+        "valid_frac": 0.8733,
+        "mean_delta": 41.47,
+        "usable": true,
+        "flagged": true,
+        "heat": "2026-03..2026-04"
+      },
+      "vs_first": {
+        "against": "2025-11",
+        "changed_frac": 0.6212,
+        "valid_frac": 0.8707,
+        "mean_delta": 44.92,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2026-04"
+      }
+    },
+    {
+      "month": "2026-05",
+      "status": "ok",
+      "scene": "S2B_15SXS_20260512_0_L2A",
+      "date": "2026-05-12",
+      "scene_cloud": 0.019756,
+      "clip_cloudlike": 0.099,
+      "tried": 1,
+      "note": "",
+      "vs_prev": {
+        "against": "2026-04",
+        "changed_frac": 0.5555,
+        "valid_frac": 0.8422,
+        "mean_delta": 37.86,
+        "usable": true,
+        "flagged": false,
+        "heat": "2026-04..2026-05"
+      },
+      "vs_first": {
+        "against": "2025-11",
+        "changed_frac": 0.5667,
+        "valid_frac": 0.8943,
+        "mean_delta": 41.07,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2026-05"
+      }
+    },
+    {
+      "month": "2026-06",
+      "status": "cloudy",
+      "scene": null,
+      "date": null,
+      "scene_cloud": 45.916751,
+      "clip_cloudlike": null,
+      "tried": 3,
+      "note": "best tries were cloudy/nodata (last: S2B_15SXS_20260628_0_L2A cloudlike 45%, nodata 0%)"
+    },
+    {
+      "month": "2026-07",
+      "status": "ok",
+      "scene": "S2A_15SXS_20260708_1_L2A",
+      "date": "2026-07-08",
+      "scene_cloud": 2.256238,
+      "clip_cloudlike": 0.1009,
+      "tried": 1,
+      "note": "",
+      "vs_prev": {
+        "against": "2026-05",
+        "changed_frac": 0.5191,
+        "valid_frac": 0.8684,
+        "mean_delta": 39.68,
+        "usable": true,
+        "flagged": false,
+        "heat": "2026-05..2026-07"
+      },
+      "vs_first": {
+        "against": "2025-11",
+        "changed_frac": 0.6847,
+        "valid_frac": 0.8933,
+        "mean_delta": 49.9,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2026-07"
+      }
+    },
+    {
+      "month": "2026-08",
+      "status": "ok",
+      "scene": "S2C_15SXS_20260812_0_L2A",
+      "date": "2026-08-12",
+      "scene_cloud": 0.087289,
+      "clip_cloudlike": 0.1777,
+      "tried": 1,
+      "note": "",
+      "vs_prev": {
+        "against": "2026-07",
+        "changed_frac": 0.3757,
+        "valid_frac": 0.8005,
+        "mean_delta": 32.0,
+        "usable": true,
+        "flagged": false,
+        "heat": "2026-07..2026-08"
+      },
+      "vs_first": {
+        "against": "2025-11",
+        "changed_frac": 0.6286,
+        "valid_frac": 0.8182,
+        "mean_delta": 46.24,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2026-08"
+      }
+    },
+    {
+      "month": "2026-09",
+      "status": "ok",
+      "scene": "S2B_15SXS_20260929_0_L2A",
+      "date": "2026-09-29",
+      "scene_cloud": 0.00277,
+      "clip_cloudlike": 0.111,
+      "tried": 1,
+      "note": "",
+      "vs_prev": {
+        "against": "2026-08",
+        "changed_frac": 0.3918,
+        "valid_frac": 0.8107,
+        "mean_delta": 31.02,
+        "usable": true,
+        "flagged": false,
+        "heat": "2026-08..2026-09"
+      },
+      "vs_first": {
+        "against": "2025-11",
+        "changed_frac": 0.5908,
+        "valid_frac": 0.8832,
+        "mean_delta": 42.6,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2026-09"
+      }
+    },
+    {
+      "month": "2026-10",
+      "status": "ok",
+      "scene": "S2C_15SXS_20261024_0_L2A",
+      "date": "2026-10-24",
+      "scene_cloud": 5.9e-05,
+      "clip_cloudlike": 0.1313,
+      "tried": 1,
+      "note": "",
+      "vs_prev": {
+        "against": "2026-09",
+        "changed_frac": 0.2227,
+        "valid_frac": 0.857,
+        "mean_delta": 21.39,
+        "usable": true,
+        "flagged": false,
+        "heat": "2026-09..2026-10"
+      },
+      "vs_first": {
+        "against": "2025-11",
+        "changed_frac": 0.5976,
+        "valid_frac": 0.8639,
+        "mean_delta": 44.0,
+        "usable": true,
+        "flagged": false,
+        "heat": "2025-11..2026-10"
+      }
+    }
+  ],
+  "params": {
+    "pixel_threshold": 30,
+    "flag_frac": 0.05,
+    "max_clip_cloud": 0.2,
+    "outlier": 1.5
+  },
+  "summary": {
+    "months_with_clip": 11,
+    "months_requested": 12,
+    "flagged_months": [
+      "2026-04"
+    ],
+    "first_vs_last": {
+      "against": "2025-11",
+      "changed_frac": 0.5976,
+      "valid_frac": 0.8639,
+      "mean_delta": 44.0,
+      "usable": true,
+      "flagged": false,
+      "heat": "2025-11..2026-10"
+    },
+    "errors": [],
+    "typical_changed_frac": 0.4117
+  },
+  "query": {
+    "place": null,
+    "display_name": "32.52890, -91.63610",
+    "lat": 32.5289,
+    "lon": -91.6361,
+    "note": "public location: Meta Richland Parish Data Center, Louisiana (Nominatim name); coordinates passed with --lat/--lon"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "tool": "property-watch",
+  "version": "0.1.0",
+  "python": "3.12.3",
+  "runs": [
+    {
+      "name": "richland-parish",
+      "command": "python3 property_watch.py --lat 32.5289 --lon -91.6361 --size 2000 --end 2026-10 --out examples/richland-parish/report.html --json examples/richland-parish/result.json",
+      "window": [
+        "2025-11",
+        "2026-10"
+      ],
+      "tile": "MGRS-15SXS",
+      "box_m": 2000.0,
+      "pixels": 200,
+      "scenes": {
+        "2025-11": "S2B_15SXS_20251103_0_L2A",
+        "2025-12": "S2A_15SXS_20251230_0_L2A",
+        "2026-01": "S2B_15SXS_20260119_0_L2A",
+        "2026-02": "S2B_15SXS_20260228_0_L2A",
+        "2026-03": "S2B_15SXS_20260313_0_L2A",
+        "2026-04": "S2B_15SXS_20260409_0_L2A",
+        "2026-05": "S2B_15SXS_20260512_0_L2A",
+        "2026-06": null,
+        "2026-07": "S2A_15SXS_20260708_1_L2A",
+        "2026-08": "S2C_15SXS_20260812_0_L2A",
+        "2026-09": "S2B_15SXS_20260929_0_L2A",
+        "2026-10": "S2C_15SXS_20261024_0_L2A"
+      },
+      "months_without_clip": {
+        "2026-06": "cloudy"
+      },
+      "flagged_months": [
+        "2026-04"
+      ],
+      "typical_month_to_month_changed_frac": 0.4117,
+      "first_vs_last_changed_frac": 0.5976,
+      "files": {
+        "report.html": {
+          "bytes": 2436110,
+          "sha256": "749c7cdc7cc32e7b1a4432638c198c4074f0f704b429b97a3c80de203fa9274c"
+        },
+        "result.json": {
+          "bytes": 8493,
+          "sha256": "39b5df44e71cb0cf7a0981f59f928c72c332d2a7ec5588d4cd1a041a82c676b9"
+        }
+      },
+      "imagery": "Contains modified Copernicus Sentinel data, via Element84 Earth Search (sentinel-2-l2a). Re-running later can pick different scenes if new ones are added."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "property-watch"
+version = "0.1.0"
+description = "Look for large changes at one address or lat/lon over a 12-month window with free Sentinel-2 imagery; writes one self-contained HTML report."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["requests>=2.31"]
+keywords = ["sentinel-2", "stac", "satellite", "change-detection", "remote-sensing", "cli"]
+
+[project.scripts]
+property-watch = "property_watch:main"
+
+[tool.setuptools]
+py-modules = ["property_watch"]
